@@ -265,6 +265,10 @@ body {
   background-color: transparent;
 }
 
+#projects a{
+text-decoration: none !important;
+}
+
 #projects h1 {
   text-align: center;
   color: #2196F3;
