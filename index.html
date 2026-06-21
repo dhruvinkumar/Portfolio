@@ -1,135 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dhruvinkumar Bhatt | SOC Analyst</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="script.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dhruvin</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 
 <body>
-    <header class="navbar">
-        <div class="logo">DB</div>
-        <nav> <a href="#home">Home</a> <a href="#about">About</a> <a href="#experience">Experience</a> <a href="#skills">Skills</a> <a href="#projects">Projects</a> <a href="#achievements">Achievements</a> <a href="#contact">Contact</a> </nav>
-    </header>
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h1>Dhruvinkumar Bhatt</h1>
-            <h2>SOC Analyst @ Accenture</h2>
-            <p> Threat Detection • Microsoft Sentinel • Splunk • KQL • Incident Response </p>
-            <div class="buttons"> <a href="resume.pdf" class="btn">Download Resume</a> <a href="#contact" class="btn btn-outline">Contact Me</a> </div>
-        </div>
-    </section>
-    <section id="about">
-        <h2>About Me</h2>
-        <p> Results-driven Cybersecurity Analyst with hands-on SOC experience at Accenture. Experienced in Microsoft Sentinel, Splunk, Defender XDR, incident triage, threat hunting, KQL investigations, and SIEM operations. Passionate about protecting organizations
-            through proactive threat detection and security monitoring. </p>
-    </section>
-    <section id="experience">
-        <h2>Experience</h2>
-        <div class="card">
-            <h3>Associate SOC Analyst – Accenture</h3> <span>Sep 2024 – Present</span>
-            <ul>
-                <li>Monitor and analyze 200+ security alerts daily.</li>
-                <li>Investigate threats using Microsoft Sentinel and Splunk.</li>
-                <li>Perform endpoint investigations with Microsoft Defender.</li>
-                <li>Conduct KQL-based threat hunting and log analysis.</li>
-                <li>Reduced false positives by 14% through SIEM tuning.</li>
-                <li>Improved alert escalation time by 30%.</li>
-            </ul>
-        </div>
-    </section>
-    <section id="skills">
-        <h2>Skills</h2>
-        <div class="skill-grid">
-            <div class="card">
-                <h3>SIEM Platforms</h3>
-                <p>Microsoft Sentinel</p>
-                <p>Splunk</p>
-                <p>Microsoft Defender XDR</p>
-            </div>
-            <div class="card">
-                <h3>Cybersecurity</h3>
-                <p>Threat Hunting</p>
-                <p>Incident Response</p>
-                <p>Log Analysis</p>
-                <p>SOC Operations</p>
-            </div>
-            <div class="card">
-                <h3>Query Languages</h3>
-                <p>KQL</p>
-                <p>SQL</p>
-                <p>MySQL</p>
-            </div>
-            <div class="card">
-                <h3>Programming</h3>
-                <p>C++</p>
-                <p>Data Structures</p>
-                <p>Algorithms</p>
-            </div>
-        </div>
-    </section>
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project-grid">
-            <div class="card">
-                <h3>EtherealMint</h3>
-                <p> ERC-20 Token Generator built using Solidity and Ethereum. Includes security controls, deployment documentation, and smart contract auditing. </p>
-            </div>
-            <div class="card">
-                <h3>ORE iOS Puzzle Game</h3>
-                <p> Published puzzle game with 1000+ downloads and 4.3 rating. Built using MVC architecture and deployed through App Store Connect. </p>
-            </div>
-            <div class="card">
-                <h3>Threat Hunting Lab</h3>
-                <p> Personal SOC lab utilizing Sentinel, KQL, MITRE ATT&CK, and Defender telemetry for detection engineering. </p>
-            </div>
-        </div>
-    </section>
-    <section id="achievements">
-        <h2>Achievements</h2>
-        <div class="achievement-grid">
-            <div class="card">
-                <h3>500+</h3>
-                <p>DSA Problems Solved</p>
-            </div>
-            <div class="card">
-                <h3>#42</h3>
-                <p>GeeksforGeeks All-Time Rank</p>
-            </div>
-            <div class="card">
-                <h3>9.39 GPA</h3>
-                <p>SRM Institute of Science and Technology</p>
-            </div>
-            <div class="card">
-                <h3>Scholarship</h3>
-                <p>Academic Merit Scholarship</p>
-            </div>
-        </div>
-    </section>
-    <section id="education">
-        <h2>Education</h2>
-        <div class="card">
-            <h3>B.Tech Computer Science Engineering</h3>
-            <p>SRM Institute of Science and Technology</p>
-            <p>GPA: 9.39</p>
-            <p>Graduated: 2024</p>
-        </div>
-    </section>
-    <section id="contact">
-        <h2>Contact</h2>
-        <div class="contact-box">
-            <p>Email: dhruvinbhatt11@gmail.com</p>
-            <p>Phone: +91 XXXXX XXXXX</p>
-            <p>GitHub: github.com/dhruvinkumar</p>
-            <p>LinkedIn: linkedin.com/in/dhruvinkumar-bhatt</p>
-        </div>
-    </section>
-    <footer>
-        <p>© 2026 Dhruvinkumar Bhatt</p>
-    </footer>
-</body>
 
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="menu-toggle" id="menu-toggle">☰</div>
+
+  <ul id="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#connect">Connect</a></li>
+  </ul>
+</nav>
+
+<!-- HOME -->
+<div id="home" class="section">
+  <div class="left">
+    <div class="text">
+      <h1>Hi There,</h1>
+      <h1>I'm <span>Dhruvin</span></h1>
+      <h3 id="typing"></h3>
+
+      <a href="resume.pdf" class="btn">Download Resume</a>
+    </div>
+  </div>
+
+  <div class="right">
+    <div class="photo">
+      <img src="images/photo.svg" alt="">
+    </div>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<div id="about" class="section">
+  <h1>About</h1>
+
+  <div class="about-box">
+    <p>
+      Results-driven Cybersecurity Analyst with hands-on SOC experience at Accenture,
+      specializing in Microsoft Sentinel, Splunk, KQL-based analysis, and incident response.
+      Passionate about threat detection and security engineering.
+    </p>
+  </div>
+
+  <div class="stats">
+    <div class="stat">200+<span>Alerts/day</span></div>
+    <div class="stat">14%<span>FP Reduced</span></div>
+    <div class="stat">30%<span>Faster MTTR</span></div>
+    <div class="stat">500+<span>DSA Problems</span></div>
+  </div>
+</div>
+
+<!-- EXPERIENCE -->
+<div id="experience" class="section">
+  <h1>Experience</h1>
+
+  <div class="card">
+    <h3>Associate SOC Analyst – Accenture</h3>
+    <p>Sep 2024 – Present</p>
+
+    <ul>
+      <li>Monitored 200+ alerts daily using Sentinel & Splunk</li>
+      <li>Performed threat investigations using KQL</li>
+      <li>Reduced false positives by 14%</li>
+      <li>Improved escalation time by 30%</li>
+      <li>Worked on Microsoft Defender & ServiceNow</li>
+    </ul>
+  </div>
+</div>
+
+<!-- SKILLS -->
+<div id="skills" class="section">
+  <h1>Skills</h1>
+
+  <div class="icons">
+    <img src="images/HTML5.svg">
+    <img src="images/CSS3.svg">
+    <img src="images/JavaScript.svg">
+    <img src="images/React.svg">
+    <img src="images/Node.js.svg">
+    <img src="images/MongoDB.svg">
+    <img src="images/MySQL.svg">
+    <img src="images/C++.svg">
+  </div>
+</div>
+
+<!-- PROJECTS -->
+<div id="projects" class="section">
+  <h1>Projects</h1>
+
+  <div class="project-grid">
+
+    <div class="card">
+      <h3>EtherealMint</h3>
+      <p>ERC-20 Token Generator with Solidity & security features.</p>
+    </div>
+
+    <div class="card">
+      <h3>ORE Game</h3>
+      <p>iOS puzzle game with 1000+ downloads and App Store deployment.</p>
+    </div>
+
+    <div class="card">
+      <h3>Expense Tracker</h3>
+      <p>React-based finance tracker with analytics dashboard.</p>
+    </div>
+
+  </div>
+</div>
+
+<!-- ACHIEVEMENTS -->
+<div id="achievements" class="section">
+  <h1>Achievements</h1>
+
+  <div class="stats">
+    <div class="stat">#42<span>GFG Rank</span></div>
+    <div class="stat">9.39<span>GPA</span></div>
+    <div class="stat">1st<span>Scholarship</span></div>
+    <div class="stat">500+<span>DSA</span></div>
+  </div>
+</div>
+
+<!-- CONNECT -->
+<div id="connect" class="section">
+  <h1>Connect</h1>
+
+  <div class="connect-items">
+    <a href="#"><img src="images/mail.svg"></a>
+    <a href="#"><img src="images/linkedin.svg"></a>
+    <a href="#"><img src="images/instagram.svg"></a>
+    <a href="#"><img src="images/github.svg"></a>
+  </div>
+</div>
+
+</body>
 </html>
